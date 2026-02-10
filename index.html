@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quieres ser mi Valentine? 💕</title>
+    <meta name="description" content="Una propuesta especial de San Valentín">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="question-container" id="question-container">
+            <!-- Las letras formadas por fotos se generarán aquí -->
+        </div>
+
+        <div class="buttons-container">
+            <button id="yes-btn" class="btn btn-yes">SÍ ❤️</button>
+            <button id="no-btn" class="btn btn-no">NO</button>
+        </div>
+    </div>
+
+    <!-- Modal para ver la imagen ampliada -->
+    <div id="image-modal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+
+    <!-- Modal de mensaje de aceptación -->
+    <div id="message-modal" class="message-modal">
+        <div class="message-content">
+            <h2>💕 ¡Gracias por aceptar mi amor! 💕</h2>
+            <p>Te amo mucho ❤️</p>
+            <div class="hearts-animation">
+                <span class="heart">❤️</span>
+                <span class="heart">💕</span>
+                <span class="heart">💖</span>
+                <span class="heart">💗</span>
+                <span class="heart">💝</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
